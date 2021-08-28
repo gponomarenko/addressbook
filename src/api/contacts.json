@@ -1,0 +1,326 @@
+[
+    {
+        "id": 1,
+        "employee": {
+            "userId": 31,
+            "fullName": "Петров Олег Давидович",
+            "jobTitle": "Директор",
+            "department": "Администрация", 
+            "phone": "0441234567",
+            "email": "opetrov@outlook.com"
+        },
+        "manager": null,
+        "status": "Активный"
+    },
+    {
+        "id": 2,
+        "employee": {
+            "userId": 32,
+            "fullName": "Артуров Артур Петрович",
+            "jobTitle": "Помощник директора",
+            "department": "Администрация",
+            "phone": "0441234561",
+            "email": "aarturov@outlook.com"
+        },
+        "manager": {
+            "userId": 31,
+            "fullName": "Петров Олег Давидович",
+            "jobTitle": "Директор",
+            "department": "Администрация", 
+            "phone": "0441234567",
+            "email": "opetrov@outlook.com"
+        },
+        "status": "Уволен"
+    },
+    {
+        "id": 3,
+        "employee": {
+            "userId": 33,
+            "fullName": "Вавилова Галина Даниловна",
+            "jobTitle": "Главный бухгалтер",
+            "department": "Бухгалтерия",
+            "phone": "0441234565",
+            "email": "gvavilova@outlook.com"
+        },
+        "manager": {
+            "userId": 31,
+            "fullName": "Петров Олег Давидович",
+            "jobTitle": "Директор",
+            "department": "Администрация", 
+            "phone": "0441234567",
+            "email": "opetrov@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 4,
+        "employee": {
+            "userId": 34,
+            "fullName": "Еременко Елена Петровна",
+            "jobTitle": "Ведущий бухгалтер",
+            "department": "Бухгалтерия",
+            "phone": "0441235555",
+            "email": null
+        },
+        "manager": {
+            "userId": 33,
+            "fullName": "Вавилова Галина Даниловна",
+            "jobTitle": "Главный бухгалтер",
+            "department": "Бухгалтерия",
+            "phone": "0441234565",
+            "email": "gvavilova@outlook.com"
+        },
+        "status": "Декретный отпуск"
+    },
+    {
+        "id": 5,
+        "employee": {
+            "userId": 35,
+            "fullName": "Марченко Мария Антоновна",
+            "jobTitle": "Бухгалтер",
+            "department": "Бухгалтерия",
+            "phone": "0441235550",
+            "email": "mmarchenko@outlook.com"
+        },
+        "manager": {
+            "userId": 33,
+            "fullName": "Вавилова Галина Даниловна",
+            "jobTitle": "Главный бухгалтер",
+            "department": "Бухгалтерия",
+            "phone": "0441234565",
+            "email": "gvavilova@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 6,
+        "employee": {
+            "userId": 36,
+            "fullName": "Еременко Галина Петровна",
+            "jobTitle": "Ведущий бухгалтер",
+            "department": "Бухгалтерия",
+            "phone": "0441234555",
+            "email": "geremenko@outlook.com"
+        },
+        "manager": {
+            "userId": 33,
+            "fullName": "Вавилова Галина Даниловна",
+            "jobTitle": "Главный бухгалтер",
+            "department": "Бухгалтерия",
+            "phone": "0441234565",
+            "email": "gvavilova@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 7,
+        "employee": {
+            "userId": 37,
+            "fullName": "Кравец Андрей Олегович",
+            "jobTitle": "Руководитель департамента",
+            "department": "ИТ",
+            "phone": "0441235540",
+            "email": "akravets@outlook.com"
+        },
+        "manager": {
+            "userId": 31,
+            "fullName": "Петров Олег Давидович",
+            "jobTitle": "Директор",
+            "department": "Администрация", 
+            "phone": "0441234567",
+            "email": "opetrov@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 8,
+        "employee": {
+            "userId": 38,
+            "fullName": "Кляч Антон Владимирович",
+            "jobTitle": "Старший системный администратор",
+            "department": "ИТ",
+            "phone": "0441235542",
+            "email": "aklyach@outlook.com"
+        },
+        "manager": {
+            "userId": 37,
+            "fullName": "Кравец Андрей Олегович",
+            "jobTitle": "Руководитель департамента",
+            "department": "ИТ",
+            "phone": "0441235540",
+            "email": "akravets@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 9,
+        "employee": {
+            "userId": 39,
+            "fullName": "Андропов Юрий Викторович",
+            "jobTitle": "Инженер-программист",
+            "department": null,
+            "phone": "0441235772",
+            "email": "yandropov@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 10,
+        "employee": {
+            "userId": 40,
+            "fullName": "Кляч Сергей Владимирович",
+            "jobTitle": "Системный администратор",
+            "department": "ИТ",
+            "phone": "0441235543",
+            "email": "sklyach@outlook.com"
+        },
+        "manager": {
+            "userId": 38,
+            "fullName": "Кляч Антон Владимирович",
+            "jobTitle": "Старший системный администратор",
+            "department": "ИТ",
+            "phone": "0441235542",
+            "email": "aklyach@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 11,
+        "employee": {
+            "userId": 41,
+            "fullName": "Ярмоленко Дмитрий Данилович",
+            "jobTitle": "Сетевой администратор",
+            "department": "ИТ",
+            "phone": "0441235544",
+            "email": "dyarmolenko@outlook.com"
+        },
+        "manager": {
+            "userId": 37,
+            "fullName": "Кравец Андрей Олегович",
+            "jobTitle": "Руководитель департамента",
+            "department": "ИТ",
+            "phone": "0441235540",
+            "email": "akravets@outlook.com"
+        },
+        "status": null
+    },
+    {
+        "id": 12,
+        "employee": {
+            "userId": 42,
+            "fullName": "Ярмош Григорий Михайлович",
+            "jobTitle": "Инженер-программист",
+            "department": "ИТ",
+            "phone": "0441235548",
+            "email": "gyarmosh@outlook.com"
+        },
+        "manager": {
+            "userId": 37,
+            "fullName": "Кравец Андрей Олегович",
+            "jobTitle": "Руководитель департамента",
+            "department": "ИТ",
+            "phone": "0441235540",
+            "email": "akravets@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 13,
+        "employee": {
+            "userId": 43,
+            "fullName": "Власенко Елена Александровна",
+            "jobTitle": "Аналитик-консультант",
+            "department": "ИТ",
+            "phone": "0441235545",
+            "email": "evlasenko@outlook.com"
+        },
+        "manager": {
+            "userId": 37,
+            "fullName": "Кравец Андрей Олегович",
+            "jobTitle": "Руководитель департамента",
+            "department": "ИТ",
+            "phone": "0441235540",
+            "email": "akravets@outlook.com"
+        },
+        "status": "Декретный отпуск"
+    },
+    {
+        "id": 14,
+        "employee": {
+            "userId": 44,
+            "fullName": "Смышляев Александр Павлович",
+            "jobTitle": "Руководитель департамента",
+            "department": "Маркетинг",
+            "phone": "0441235745",
+            "email": "asmyshlyaiev@outlook.com"
+        },
+        "manager": {
+            "userId": 31,
+            "fullName": "Петров Олег Давидович",
+            "jobTitle": "Директор",
+            "department": "Администрация", 
+            "phone": "0441234567",
+            "email": "opetrov@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 15,
+        "employee": {
+            "userId": 45,
+            "fullName": "Петров Андрей Олегович",
+            "jobTitle": "Маркетолог",
+            "department": "Маркетинг",
+            "phone": "0441235741",
+            "email": "apetrov@outlook.com"
+        },
+        "manager": {
+            "userId": 44,
+            "fullName": "Смышляев Александр Павлович",
+            "jobTitle": "Руководитель департамента",
+            "department": "Маркетинг",
+            "phone": "0441235745",
+            "email": "asmyshlyaiev@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 16,
+        "employee": {
+            "userId": 46,
+            "fullName": "Артуров Артур Артурович",
+            "jobTitle": "Помощник директора",
+            "department": "Администрация",
+            "phone": "0441234561",
+            "email": "aarturov@outlook.com"
+        },
+        "manager": {
+            "userId": 31,
+            "fullName": "Петров Олег Давидович",
+            "jobTitle": "Директор",
+            "department": "Администрация", 
+            "phone": "0441234567",
+            "email": "opetrov@outlook.com"
+        },
+        "status": "Активный"
+    },
+    {
+        "id": 17,
+        "employee": {
+            "userId": 47,
+            "fullName": "Смирнов Андрей Андреевич",
+            "jobTitle": "Маркетолог",
+            "department": "Маркетинг",
+            "email": "asmirnov@outlook.com"
+        },
+        "manager": {
+            "userId": 44,
+            "fullName": "Смышляев Александр Павлович",
+            "jobTitle": "Руководитель департамента",
+            "department": "Маркетинг",
+            "phone": "0441235745",
+            "email": "asmyshlyaiev@outlook.com"
+        },
+        "status": "Уволен"
+    }
+]
