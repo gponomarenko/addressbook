@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useReducer } from 'react';
 import './App.scss';
-import './styles/general.scss';
 import { Datatable } from './components/Datatable';
 import contacts from './api/contacts.json';
 
